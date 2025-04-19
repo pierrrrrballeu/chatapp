@@ -1,0 +1,1 @@
+new WebSocket("http://localhost:3000/ws", ["aaa"])

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  button {
+    @apply inline-flex justify-center items-center px-4 py-2 rounded-sm outline-none;
+    @apply transition duration-200 ;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
