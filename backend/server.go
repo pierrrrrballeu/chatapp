@@ -44,5 +44,5 @@ func main() {
 		WsHandler(ctx, hub)
 	})
 
-	r.Run(":3000")
+	r.Run("0.0.0.0:3000")
 }
